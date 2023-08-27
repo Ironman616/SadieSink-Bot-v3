@@ -395,9 +395,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
+                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'🔶ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -405,9 +405,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
+                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'🔶ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -419,9 +419,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
+                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'🔶ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -429,9 +429,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
+                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'🔶ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -1539,10 +1539,10 @@ async def auto_filter(client, msg, spoll=False):
                )
     btn.insert(2,
                [
-                   InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                   InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                   InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
-                   InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
+                   InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
+                   InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
+                   InlineKeyboardButton(f'🔶sᴇʀɪᴇs', 'sinfo'),
+                   InlineKeyboardButton(f'🎁ᴛɪᴘs', 'tinfo')
                ]
                )
 
