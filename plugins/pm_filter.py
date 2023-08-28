@@ -224,10 +224,10 @@ async def next_page(bot, query):
                )
     btn.insert(2,
                [
-                   InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
-                   InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
-                   InlineKeyboardButton(f'🔶sᴇʀɪᴇs', 'sinfo'),
-                   InlineKeyboardButton(f'🎁ᴛɪᴘs', 'tinfo')
+                   InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                   InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                   InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
+                   InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
                ]
                )
 
@@ -395,9 +395,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'🔶ꜱᴇʀɪᴇꜱ', 'sinfo'),
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -405,9 +405,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'🔶ꜱᴇʀɪᴇꜱ', 'sinfo'),
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -419,9 +419,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'🔶ꜱᴇʀɪᴇꜱ', 'sinfo'),
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -429,9 +429,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'🔶ꜱᴇʀɪᴇꜱ', 'sinfo'),
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -909,15 +909,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('× ΔĐĐ Μ€ ŦØ ¥ØỮŘ ǤŘØỮƤŞ ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔍 Ş€ΔŘĆĦ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ØŴŇ ƗŇ₣Ø', url='https://t.me/+ipDgG7Qfrps1ZTJl')
+            InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/+ipDgG7Qfrps1ZTJl')
         ], [
-            InlineKeyboardButton('Ħ€ŁƤ', callback_data='help'),
-            InlineKeyboardButton('ΔβØỮŦ', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ], [
-            InlineKeyboardButton('βΔĆҜ ŦØ ŞŦΔŘŦ', callback_data='surprise')
+            InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='surprise')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1539,10 +1539,10 @@ async def auto_filter(client, msg, spoll=False):
                )
     btn.insert(2,
                [
-                   InlineKeyboardButton(f'📮ɪɴꜰᴏ', 'reqinfo'),
-                   InlineKeyboardButton(f'📟ᴍᴏᴠɪᴇ', 'minfo'),
-                   InlineKeyboardButton(f'🔶sᴇʀɪᴇs', 'sinfo'),
-                   InlineKeyboardButton(f'🎁ᴛɪᴘs', 'tinfo')
+                   InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                   InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                   InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
+                   InlineKeyboardButton(f'ᴛɪᴘs', 'tinfo')
                ]
                )
 
@@ -1601,7 +1601,7 @@ async def auto_filter(client, msg, spoll=False):
                     text=f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ‌ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...</b>",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/CinemaCorner_Group')
+                            InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/moviecafe_01')
                         ]]
                     )
                 )
@@ -1627,7 +1627,7 @@ async def auto_filter(client, msg, spoll=False):
                     text=f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ‌ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...</b>",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/CinemaCorner_Group')
+                            InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/moviecafe_01')
                         ]]
                     )
                 )
@@ -1655,7 +1655,7 @@ async def auto_filter(client, msg, spoll=False):
                     text=f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ‌ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...</b>",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/CinemaCorner_Group')
+                            InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/moviecafe_01')
                         ]]
                     )
                 )
@@ -1681,7 +1681,7 @@ async def auto_filter(client, msg, spoll=False):
                 text=f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ‌ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...</b>",
                 reply_markup=InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/CinemaCorner_Group')
+                        InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/moviecafe_01')
                     ]]
                 )
             )
@@ -1971,4 +1971,3 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
-
