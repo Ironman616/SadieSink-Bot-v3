@@ -4,7 +4,7 @@ from pyrogram import Client, filters, enums
 from info import *
 import openai
 import asyncio
-openai.api_key = OPENAI_API
+openai.api_key = XqH4mBqKIj1cXcTdKazLT3BlbkFJDHLV5VLa4xynkI0BeKTV
 
 
 @Client.on_message(filters.private & filters.command('openai'))
