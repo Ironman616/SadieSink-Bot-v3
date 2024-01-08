@@ -9,7 +9,7 @@ openai.api_key = OPENAI_API
 
 @Client.on_message(filters.private & filters.command('openai'))
 async def openai_answer(client, message):
-    if AI == False:
+    if AI == True:
         user_id = message.from_user.id
         if user_id:
             try:
