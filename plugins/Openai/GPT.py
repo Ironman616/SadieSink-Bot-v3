@@ -4,12 +4,12 @@ from pyrogram import Client, filters, enums
 from info import *
 import openai
 import asyncio
-openai.api_key = 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
+openai.api_key = OPENAI_API
 
 
 @Client.on_message(filters.private & filters.command('openai'))
 async def openai_answer(client, message):
-    if AI == True:
+    if AI == False:
         user_id = message.from_user.id
         if user_id:
             try:
