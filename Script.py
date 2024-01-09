@@ -20,8 +20,6 @@ class script(object):
 - 𝚂𝙾𝚄𝚁𝙲𝙴 - 𝙲𝙻𝙸𝙲𝙺 𝚁𝙴𝙿𝙾 𝙱𝚄𝚃𝚃𝙾𝙽</b>
 <b>DEVS:</b>
 
-<code>[Donate Us ](buttonurl:https://t.me/Movie_loverzz)</code>
-
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
